@@ -9,8 +9,10 @@ class Solution:
 
     
         index = 0
+        
+        diff = len(haystack)-len(needle)
 
-        while index <= len(haystack)-len(needle):
+        while index <= diff:
             print(haystack[index:index+len(needle)])
             if needle == haystack[index:index+len(needle)]:
 
