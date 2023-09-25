@@ -10,7 +10,7 @@ class Solution:
                counter-=1
                length-=1
            
-           counter+=1
+           counter+=127
         
         return length
     
